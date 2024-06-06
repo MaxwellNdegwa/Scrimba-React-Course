@@ -1,9 +1,11 @@
 
+import logo from "./logo512.png"
+
 function Header() {
     return (
         <header>
             <nav className='nav'>
-                <img src="./logo512.png" className='img' />
+                <img src={logo} className='img' />
                 <ul className="nav-items">
                     <li>Pricing</li>
                     <li>About</li>
