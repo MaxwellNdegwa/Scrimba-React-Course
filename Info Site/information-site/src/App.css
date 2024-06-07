@@ -1,20 +1,41 @@
 
+*{
+  margin:1% 2%;
+  align-items: center;
+  background-color: #21222A;
+  color: white;
+  box-sizing: border-box;
+  
+}
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
-.nav-items {
-  list-style: none;
+.name{
   display: flex;
 }
 
-.nav-items > li {
-  padding: 30px 100px;
+.nav-items{
+  padding: 0px 100px;
 }
 
 .img{
-  width: 50px;
+  width: 100px;
   padding-left: 30px;
+}
+
+nav h1 {
+  color: #61DAFB;
+}
+
+.main{
+  background-color: #21222A;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
 }
